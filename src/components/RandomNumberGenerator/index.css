@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bree Serif';
+}
+
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100dvh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  height: 550px;
+  width: 550px;
+  border-style: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px gray;
+}
+
+.heading {
+  color: #0b69ff;
+  font-size: 30px;
+}
+
+.paragraph {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.button {
+  margin-top: 17px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  width: 90px;
+  height: 40px;
+  border-style: none;
+  border-radius: 8px;
+}
+
+.count-p {
+  margin-top: 18px;
+  color: #0b69ff;
+  font-size: 35px;
+}
